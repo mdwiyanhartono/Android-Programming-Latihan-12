@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AbsenActivity">
+
+    <ImageView
+        android:id="@+id/imgabsentop"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/imgabsenbg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg_atas" />
+
+    <ImageView
+        android:id="@+id/imgabsenbottom"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/imgabsenbg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bg_bawah" />
+
+    <TextView
+        android:id="@+id/textabjudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/textabjudul"
+        style="@style/textmainJudul"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textabjam"
+        style="@style/textsubJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/textabjam"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgabsentop" />
+
+    <EditText
+        android:id="@+id/etabjam"
+        style="@style/etabmainsub"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="@string/textabjam"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="@string/textabjam"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/textabjam"
+        app:layout_constraintTop_toBottomOf="@+id/imgabsentop" />
+
+    <ImageView
+        android:id="@+id/imgabjam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/imgabjam"
+        app:layout_constraintStart_toEndOf="@+id/etabjam"
+        app:layout_constraintTop_toBottomOf="@+id/imgabsentop"
+        app:srcCompat="@drawable/icon_jam" />
+
+    <TextView
+        android:id="@+id/textabtgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/textabtgl"
+        style="@style/textsubJudul"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textabjam" />
+
+    <EditText
+        android:id="@+id/etabtgl"
+        style="@style/etabmainsub"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/textabtgl"
+        android:autofillHints="@string/textabtgl"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/textabtgl"
+        app:layout_constraintTop_toBottomOf="@+id/textabjam" />
+
+    <ImageView
+        android:id="@+id/imgabcalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/imgabcalender"
+        app:layout_constraintStart_toEndOf="@+id/etabtgl"
+        app:layout_constraintTop_toBottomOf="@+id/textabjam"
+        app:srcCompat="@drawable/icon_kalender" />
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/btnsubmit"
+        style="@style/btnmainlogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textabtgl" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

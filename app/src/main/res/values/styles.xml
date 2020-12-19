@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="textmainJudul" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/Teal</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="textsubJudul" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/DarkGreen</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="etabmainsub" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/DarkGreen</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="btnmainlogin" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/LightGrey</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:backgroundTint" tools:ignore="NewApi">@color/DarkGreen</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+</resources>

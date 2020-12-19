@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Traning 12</string>
+    <string name="bg">Main Background</string>
+    <string name="textmainJudul">Program Attendance</string>
+    <string name="textsubJudul">List Name Mahasiswa</string>
+    <!--Activity ABSEN-->
+    <string name="imgabsenbg">Absen Background</string>
+    <string name="textabjudul">Program Attendance</string>
+    <string name="textabjam">Hours Of Entry</string>
+    <string name="textabtgl">Date Of Entry</string>
+    <string name="imgabcalender">Icon Calendar</string>
+    <string name="btnsubmit">Submit</string>
+    <string name="imgabjam">Icon Clock</string>
+    <string name="my_profile">MY Profile</string>
+    <string name="imageheader">imgHeader</string>
+    <string name="info">Information</string>
+    <string name="fab">floatingbtn</string>
+    <string name="lableNama">Name</string>
+    <string name="titik2">:</string>
+    <string name="nama">M. Dwiyan Hartono</string>
+    <string name="lableNIM">NIM</string>
+    <string name="nim">3420160144</string>
+    <string name="actionlanguage">Setting Language</string>
+</resources>
